@@ -1,0 +1,417 @@
+# Copyright (C) 2024 NOTYD
+# This file is distributed under the same license as the NOTYD Business Invoice plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: NOTYD Business Invoice 1.0.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/biller-business-"
+"invoice\n"
+"POT-Creation-Date: 2024-06-04T11:31:25+02:00\n"
+"PO-Revision-Date: 2024-06-04 11:36+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Domain: biller-business-invoice\n"
+
+#. Plugin Name of the plugin
+#: biller-business-invoice.php
+#: includes/Gateways/class-biller-business-invoice.php:79
+#: includes/Gateways/class-biller-business-invoice.php:448
+#| msgid "NOTYD business invoice"
+msgid "NOTYD - Business invoice"
+msgstr "NOTYD - Business invoice"
+
+#. Description of the plugin
+#: biller-business-invoice.php
+#: includes/Gateways/class-biller-business-invoice.php:80
+msgid ""
+"NOTYD is the B2B buy-now-pay-later payment method for businesses, available "
+"in the Netherlands and Belgium"
+msgstr ""
+"NOTYD is the B2B buy-now-pay-later payment method for businesses, available "
+"in the Netherlands and Belgium"
+
+#. Author of the plugin
+#: biller-business-invoice.php
+msgid "NOTYD"
+msgstr "NOTYD"
+
+#: includes/class-biller.php:190
+msgid "NOTYD business invoice"
+msgstr "NOTYD business invoice"
+
+#: includes/class-biller.php:246
+msgid "View NOTYD configuration"
+msgstr "View NOTYD configuration"
+
+#: includes/class-biller.php:247
+msgid "Settings"
+msgstr "Settings"
+
+#: includes/class-biller.php:286
+msgid "Please install and activate WooCommerce."
+msgstr "Please install and activate WooCommerce."
+
+#. translators: %s: order ID
+#: includes/Components/Services/class-admin-order-action-handlers.php:178
+msgid "Order %s changes are not synchronized to the NOTYD."
+msgstr "Order %s changes are not synchronized to the NOTYD."
+
+#. translators: %s: order ID
+#: includes/Components/Services/class-admin-order-action-handlers.php:323
+msgid ""
+"Order %s changes will not be automatically synchronized to the NOTYD anymore "
+"due to unsupported action."
+msgstr ""
+"Order %s changes will not be automatically synchronized to the NOTYD anymore "
+"due to unsupported action."
+
+#: includes/Components/Services/class-order-request-service.php:88
+msgid "The unexpected error occurred, please select different payment method."
+msgstr "The unexpected error occurred, please select different payment method."
+
+#. translators: %s message
+#: includes/Components/Services/class-refund-amount-service.php:34
+msgid "Order refund rejected with error: %s"
+msgstr "Order refund rejected with error: %s"
+
+#. translators: %s order ID
+#: includes/Components/Services/class-refund-amount-service.php:56
+msgid "Order refund could not be processed, unknown order id: %s"
+msgstr "Order refund could not be processed, unknown order id: %s"
+
+#. translators: %s: order ID, WC status
+#: includes/Components/Services/Core/class-order-status-transition-service.php:25
+msgid "NOTYD changed the order (%1$s) status to %2$s."
+msgstr "NOTYD changed the order (%1$s) status to %2$s."
+
+#: includes/Controllers/class-biller-payment-redirection-controller.php:58
+msgid "Accepted by NOTYD"
+msgstr "Accepted by NOTYD"
+
+#: includes/Controllers/class-biller-payment-redirection-controller.php:68
+msgid "NOTYD payment transaction failed. Please choose another payment method."
+msgstr ""
+"NOTYD payment transaction failed. Please choose another payment method."
+
+#: includes/Gateways/class-biller-business-invoice.php:367
+msgid "Invalid field: "
+msgstr "Invalid field: "
+
+#: includes/Gateways/class-biller-business-invoice.php:375
+msgid "Company name cannot be empty."
+msgstr "Company name cannot be empty."
+
+#: includes/Gateways/class-biller-business-invoice.php:381
+msgid "Registration number should be a numeric value."
+msgstr "Registration number should be a numeric value."
+
+#: includes/Gateways/class-biller-business-invoice.php:399
+msgid "Name"
+msgstr "Name"
+
+#: includes/Gateways/class-biller-business-invoice.php:401
+msgid "This controls the title which the user sees during checkout."
+msgstr "This controls the title which the user sees during checkout."
+
+#: includes/Gateways/class-biller-business-invoice.php:406
+msgid "Description"
+msgstr "Description"
+
+#: includes/Gateways/class-biller-business-invoice.php:408
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+"Payment method description that the customer will see on your checkout."
+
+#: includes/Gateways/class-biller-business-invoice.php:447
+msgid "Enable/Disable"
+msgstr "Enable/Disable"
+
+#: includes/Gateways/class-biller-business-invoice.php:451
+msgid "Enable/Disable NOTYD payment method."
+msgstr "Enable/Disable NOTYD payment method."
+
+#: includes/Gateways/class-biller-business-invoice.php:455
+msgid "Mode"
+msgstr "Mode"
+
+#: includes/Gateways/class-biller-business-invoice.php:458
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: includes/Gateways/class-biller-business-invoice.php:459
+msgid "Live"
+msgstr "Live"
+
+#: includes/Gateways/class-biller-business-invoice.php:461
+msgid ""
+"Options field that allows merchants to choose either live or sandbox mode."
+msgstr ""
+"Options field that allows merchants to choose either live or sandbox mode."
+
+#: includes/Gateways/class-biller-business-invoice.php:467
+#: includes/Gateways/class-biller-business-invoice.php:488
+msgid "Webshop UUID"
+msgstr "Webshop UUID"
+
+#: includes/Gateways/class-biller-business-invoice.php:469
+#: includes/Gateways/class-biller-business-invoice.php:490
+msgid "Unique identifier of the Webshop."
+msgstr "Unique identifier of the Webshop."
+
+#: includes/Gateways/class-biller-business-invoice.php:474
+#: includes/Gateways/class-biller-business-invoice.php:495
+msgid "Username"
+msgstr "Username"
+
+#: includes/Gateways/class-biller-business-invoice.php:476
+#: includes/Gateways/class-biller-business-invoice.php:497
+msgid " NOTYD username"
+msgstr " NOTYD username"
+
+#: includes/Gateways/class-biller-business-invoice.php:481
+#: includes/Gateways/class-biller-business-invoice.php:502
+msgid "Password"
+msgstr "Password"
+
+#: includes/Gateways/class-biller-business-invoice.php:483
+#: includes/Gateways/class-biller-business-invoice.php:504
+msgid "NOTYD password"
+msgstr "NOTYD password"
+
+#: includes/Repositories/class-base-repository.php:345
+msgid "Column is not id or index."
+msgstr "Column is not id or index."
+
+#: includes/Utility/class-translator.php:15
+msgid "Automatic order synchronization failed!"
+msgstr "Automatic order synchronization failed!"
+
+#. translators: %s: Order ID, Fail message
+#: includes/Utility/class-translator.php:18
+#| msgid ""
+#| "There was an error during the synchronization of the order %s. The plugin "
+#| "will not be able to synchronize any further changes automatically. "
+#| "Failure message: %s"
+msgid ""
+"There was an error during the synchronization of the order %1$s. The plugin "
+"will not be able to synchronize any further changes automatically. Failure "
+"message: %2$s"
+msgstr ""
+"There was an error during the synchronization of the order %1$s. The plugin "
+"will not be able to synchronize any further changes automatically. Failure "
+"message: %2$s"
+
+#: includes/Utility/class-translator.php:20
+msgid "Order status update failed!"
+msgstr "Order status update failed!"
+
+#. translators: %s: Error message
+#: includes/Utility/class-translator.php:23
+msgid "Error message: %s"
+msgstr "Error message: %s"
+
+#: includes/Utility/class-translator.php:25
+msgid "Order capture is rejected by NOTYD."
+msgstr "Order capture is rejected by NOTYD."
+
+#. translators: %s: Error message
+#: includes/Utility/class-translator.php:28
+#: includes/Utility/class-translator.php:33
+msgid "NOTYD error message: %s"
+msgstr "NOTYD error message: %s"
+
+#: includes/Utility/class-translator.php:30
+msgid "Cancellation is rejected by NOTYD."
+msgstr "Cancellation is rejected by NOTYD."
+
+#: includes/Utility/class-translator.php:35
+msgid "Order amount refund failed"
+msgstr "Order amount refund failed"
+
+#. translators: %s: Error message
+#: includes/Utility/class-translator.php:38
+#: includes/Utility/class-translator.php:43
+msgid "Order refund finished with errors: %s"
+msgstr "Order refund finished with errors: %s"
+
+#: includes/Utility/class-translator.php:40
+msgid "Order line refund failed"
+msgstr "Order line refund failed"
+
+#: includes/Utility/class-translator.php:45
+msgid "Woocommerce order refund failed."
+msgstr "Woocommerce order refund failed."
+
+#. translators: %s: Error message
+#: includes/Utility/class-translator.php:48
+msgid "Order refund failed for refund from NOTYD with error message: %s"
+msgstr "Order refund failed for refund from NOTYD with error message: %s"
+
+#: includes/Utility/class-translator.php:50
+msgid "Shop change is not synchronized"
+msgstr "Shop change is not synchronized"
+
+#. translators: %s: Order ID
+#: includes/Utility/class-translator.php:53
+#| msgid ""
+#| "Order %s changes will not be automatically synchronized to the NOTYD "
+#| "anymore. Order refund %s was deleted from the order %s, but the refund "
+#| "deletion is not permitted by the NOTYD."
+msgid ""
+"Order %1$s changes will not be automatically synchronized to the NOTYD "
+"anymore. Order refund %2$s was deleted from the order %3$s, but the refund "
+"deletion is not permitted by the NOTYD."
+msgstr ""
+"Order %1$s changes will not be automatically synchronized to the NOTYD "
+"anymore. Order refund %2$s was deleted from the order %3$s, but the refund "
+"deletion is not permitted by the NOTYD."
+
+#. translators: %s: Order ID
+#: includes/Utility/class-translator.php:56
+#| msgid ""
+#| "Order %s changes will not be automatically synchronized to the NOTYD "
+#| "anymore. Manual order refund %s created for the order %s."
+msgid ""
+"Order %1$s changes will not be automatically synchronized to the NOTYD "
+"anymore. Manual order refund %2$s created for the order %3$s."
+msgstr ""
+"Order %1$s changes will not be automatically synchronized to the NOTYD "
+"anymore. Manual order refund %2$s created for the order %3$s."
+
+#. translators: %s: Order ID
+#: includes/Utility/class-translator.php:59
+msgid ""
+"Order %s changes will not be automatically synchronized to the NOTYD "
+"anymore. Order was deleted, but the order deletion is not permitted by the "
+"NOTYD."
+msgstr ""
+"Order %s changes will not be automatically synchronized to the NOTYD "
+"anymore. Order was deleted, but the order deletion is not permitted by the "
+"NOTYD."
+
+#. translators: %s: Order ID
+#: includes/Utility/class-translator.php:62
+msgid ""
+"Order %s changes will not be automatically synchronized to the NOTYD "
+"anymore. Order total is updated, but the order update is not permitted by "
+"the NOTYD."
+msgstr ""
+"Order %s changes will not be automatically synchronized to the NOTYD "
+"anymore. Order total is updated, but the order update is not permitted by "
+"the NOTYD."
+
+#. translators: %s: Order ID
+#: includes/Utility/class-translator.php:65
+msgid ""
+"Order %s changes are detected but not synchronized to the NOTYD. Order "
+"update is not permitted by the NOTYD."
+msgstr ""
+"Order %s changes are detected but not synchronized to the NOTYD. Order "
+"update is not permitted by the NOTYD."
+
+#: resources/views/admin/order/meta-post-box.php:15
+msgid "Payment status:"
+msgstr "Payment status:"
+
+#: resources/views/admin/order/meta-post-box.php:24
+#: resources/views/admin/order/meta-post-box.php:40
+msgid "Payment link"
+msgstr "Payment link"
+
+#: resources/views/admin/order/meta-post-box.php:26
+msgid "The payment link will redirect the customer to NOTYD for payment."
+msgstr "The payment link will redirect the customer to NOTYD for payment."
+
+#: resources/views/admin/order/meta-post-box.php:34
+msgid "Copy"
+msgstr "Copy"
+
+#: resources/views/admin/order/meta-post-box.php:42
+msgid ""
+"For NOTYD a company name is required for a valid payment link, please enter "
+"the custom field value of the order."
+msgstr ""
+"For NOTYD a company name is required for a valid payment link, please enter "
+"the custom field value of the order."
+
+#: resources/views/admin/order/meta-post-box.php:56
+msgid "Cancel"
+msgstr "Cancel"
+
+#: resources/views/admin/order/meta-post-box.php:61
+msgid "Capture"
+msgstr "Capture"
+
+#: resources/views/admin/payments/notification-hub.php:17
+msgid "Notifications"
+msgstr "Notifications"
+
+#: resources/views/admin/payments/notification-hub.php:27
+msgid "ID"
+msgstr "ID"
+
+#: resources/views/admin/payments/notification-hub.php:32
+msgid "Date"
+msgstr "Date"
+
+#: resources/views/admin/payments/notification-hub.php:37
+msgid "Type"
+msgstr "Type"
+
+#: resources/views/admin/payments/notification-hub.php:42
+msgid "Order number"
+msgstr "Order number"
+
+#: resources/views/admin/payments/notification-hub.php:47
+msgid "Message"
+msgstr "Message"
+
+#: resources/views/admin/payments/notification-hub.php:52
+msgid "Details"
+msgstr "Details"
+
+#: resources/views/admin/payments/notification-hub.php:67
+msgid "Next"
+msgstr "Next"
+
+#: resources/views/admin/payments/notification-hub.php:73
+msgid "Previous"
+msgstr "Previous"
+
+#: resources/views/checkout/custom-payment-fields.php:2
+msgid "Company name"
+msgstr "Company name"
+
+#: resources/views/checkout/custom-payment-fields.php:4
+msgid "Registration number"
+msgstr "Registration number"
+
+#: resources/views/checkout/custom-payment-fields.php:5
+msgid "recommended"
+msgstr "recommended"
+
+#: resources/views/checkout/custom-payment-fields.php:7
+msgid "VAT number"
+msgstr "VAT number"
+
+#: resources/views/checkout/custom-payment-fields.php:8
+msgid "optional"
+msgstr "optional"
+
+#~ msgid "NOTYD Business Invoice"
+#~ msgstr "NOTYD Business Invoice"
+
+#~ msgid ""
+#~ "NOTYD is designed to optimally serve both the business seller and buyer. "
+#~ "With NOTYD businesses buy now and pay later."
+#~ msgstr ""
+#~ "NOTYD is designed to optimally serve both the business seller and buyer. "
+#~ "With NOTYD businesses buy now and pay later."
+
+#~ msgid "Enable NOTYD business invoice"
+#~ msgstr "Enable NOTYD business invoice"

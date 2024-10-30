@@ -1,0 +1,45 @@
+{
+    "packages": [
+        {
+            "name": "biller/integration-core",
+            "version": "1.0.9",
+            "version_normalized": "1.0.9.0",
+            "dist": {
+                "type": "path",
+                "url": "../../integration-core",
+                "reference": "b34dbac12d382c44d0db7918aad3c1f79b6d1ec5"
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "codacy/coverage": "dev-master",
+                "phpunit/phpunit": "^7.1",
+                "symfony/console": "^4.4"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Biller\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Biller\\Console\\": "console"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Biller integrations core library",
+            "transport-options": {
+                "relative": true
+            },
+            "install-path": "../biller/integration-core"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
